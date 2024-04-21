@@ -1,7 +1,8 @@
 import express from 'express'
-import products from './data/products.js' // Assuming products is a module exporting the data
+import products from './data/products.js' 
+dotenv.config();// Assuming products is a module exporting the data
 import dotenv from 'dotenv'
-dotenv.config();
+
 import connectDB from './config/db.js';
 const port = process.env.PORT || 5000;
 
